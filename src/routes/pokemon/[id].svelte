@@ -13,7 +13,6 @@
 <script>
 	export let pokemon;
 	const type = pokemon.types[0].type.name;
-	console.log(pokemon.sprites.front_default);
 </script>
 
 <h1 class="text-4xl text-center my-8 uppercase">{pokemon.name}</h1>
